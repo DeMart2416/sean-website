@@ -1,4 +1,5 @@
 const express = require("express");
+const generatePassword = require("password-generator");
 
 const PORT = process.env.PORT || 5000;
 
@@ -6,6 +7,21 @@ const app = express();
 
 app.get("/api", (req, res) => {
     res.json({ message: "Hello from server!" });
+});
+
+// Put all API endpoints under '/api'
+app.get("/api/passwords", (req, res) => {
+    const count = 5;
+
+    // Generate some passwords
+    const passwords = Array.from(Array(count).keys()).map((i) =>
+        generatePassword(12, false)
+    );
+
+    // Return them as json
+    res.json(passwords);
+
+    console.log(`Sent ${count} passwords`);
 });
 
 if (process.env.NODE_ENV === "production") {
