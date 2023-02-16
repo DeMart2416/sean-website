@@ -1,30 +1,33 @@
 .header {
+    position: fixed;
     width: 100%;
     background-color: #eee;
-    position: fixed;
+    height: 9rem;
+    z-index: 10;
 }
 
 .header-content {
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 1rem 5rem;
-    margin: auto 0;
+    box-sizing: border-box;
 }
 
-.header-logo-container {
+.header-logo {
     display: flex;
     align-items: center;
 }
 
-.header-logo-img {
+.header-logo__img {
     width: 5rem;
     height: 5rem;
     border-radius: .5rem;
     margin-right: 1.6rem;
 }
 
-.header-logo-name {
+.header-logo__name {
     text-decoration: none;
     font-size: 1.8rem;
     text-transform: uppercase;
@@ -43,4 +46,9 @@
     letter-spacing: 1px;
     font-family: "Source Sans Pro";
     font-weight: bold;
+    transition: color .5s;
+}
+
+.header-link:hover {
+    color: #0062b9;
 }

@@ -7,25 +7,26 @@ function Navigation() {
         { Id: 1, Name: "home" },
         { Id: 2, Name: "about" },
         { Id: 3, Name: "experience" },
-        //{ Id: 4, Name: 'education' },
+        { Id: 4, Name: "education" },
         { Id: 5, Name: "contact" },
     ];
 
     return (
-        <div className="header">
+        <header className="header">
             <div className="header-content">
-                <div className="header-logo-container">
+                <div className="header-logo">
                     <img
                         src={seanProfile}
                         alt="Sean DesMarteau Logo"
-                        class="header-logo-img"
+                        className="header-logo__img"
                     />
-                    <h4 className="header-logo-name">Sean DesMarteau</h4>
+                    <h4 className="header-logo__name">Sean DesMarteau</h4>
                 </div>
                 <div className="header-links">
                     {sections.map((section) => {
                         return (
                             <a
+                                key={section.Id}
                                 href={"#" + section.Name}
                                 className="header-link"
                             >
@@ -35,7 +36,7 @@ function Navigation() {
                     })}
                 </div>
             </div>
-        </div>
+        </header>
     );
 }
 
