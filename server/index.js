@@ -26,7 +26,7 @@ app.get("/api/passwords", (req, res) => {
 
 if (process.env.NODE_ENV === "production") {
     // Have Node serve the files for our built React app
-    app.use(express.static("client/build"));
+    app.use(express.static(path.join(__dirname, "client/build")));
 
     // All other GET requests not handled before will return our React app
     const path = require("path");
