@@ -1,8 +1,7 @@
 import "./Navigation.css";
+import seanProfile from "../assets/images/sean-profile-pic.jpeg";
 
 function Navigation() {
-    const seanProfile =
-        "https://drive.google.com/uc?id=1_dnGgHcBqrd1iLPAhj8ebhpDUMgHSe9Y";
     const sections = [
         { Id: 1, Name: "home" },
         { Id: 2, Name: "about" },
