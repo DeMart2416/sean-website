@@ -1,5 +1,5 @@
 import "./Hero.css";
-import socials from "../assets/data/socials";
+import socials from "../../assets/data/socials";
 
 function Hero() {
     return (

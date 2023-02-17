@@ -1,7 +1,6 @@
 .footer {
     width: 100%;
     background-color: black;
-
 }
 
 .footer-content {
@@ -9,12 +8,11 @@
     margin: auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    color: #eee;
 }
 
 .footer-upper {
-    color: #eee;
     width: 92%;
     display: flex;
     justify-content: space-between;
@@ -25,33 +23,16 @@
     max-width: 40%;
 }
 
-.footer-upper-info_heading {
+.footer-heading {
+    font: bold 2.2rem 'Source Sans Pro', sans-serif;
     text-transform: uppercase;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: bold;
-    color: #eee;
     letter-spacing: 1px;
-    font-size: 2.2rem;
     margin: 0;
 }
 
-.footer-upper-info_detail {
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: 600;
-    font-size: 1.5rem;
+.footer-upper-info__detail {
+    font: 600 1.5rem/1.7 'Source Sans Pro', sans-serif;
     margin-top: 2rem;
-    line-height: 1.7;
-    color: white;
-}
-
-.socials-header {
-    text-transform: uppercase;
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 2.2rem;
-    letter-spacing: 1px;
-    margin: 0;
 }
 
 .footer-upper-social-links {
@@ -79,11 +60,9 @@
 }
 
 .footer-lower p {
-    font-family: "Source Sans Pro", sans-serif;
-    font-weight: normal;
+    font: normal 1.4rem 'Source Sans Pro', sans-serif;
     color: #eee;
     text-align: center;
     margin: 0;
     padding: 4rem;
-    font-size: 1.4rem
 }

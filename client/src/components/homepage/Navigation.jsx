@@ -1,5 +1,5 @@
 import "./Navigation.css";
-import seanProfile from "../assets/images/sean-profile-pic.jpeg";
+import seanProfile from "../../assets/images/sean-profile-pic.jpeg";
 
 function Navigation() {
     const sections = [

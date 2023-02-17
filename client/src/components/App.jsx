@@ -1,8 +1,8 @@
 import React from "react";
-import Footer from "./Footer";
+import Footer from "./homepage/Footer";
 // import "./App.css";
-import Hero from "./Hero";
-import Navigation from "./Navigation";
+import Hero from "./homepage/Hero";
+import Navigation from "./homepage/Navigation";
 
 function App() {
     return (
