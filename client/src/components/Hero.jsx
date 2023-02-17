@@ -1,44 +1,7 @@
 import "./Hero.css";
-import trailhead from "../assets/icons/trailhead2-ico.png";
-import linkedin from "../assets/icons/linkedin-ico.png";
-import github from "../assets/icons/github-ico.png";
-import twitter from "../assets/icons/twitter-ico.png";
-import instagram from "../assets/icons/insta-ico.png";
+import socials from "../assets/data/socials";
 
 function Hero() {
-    const socials = [
-        {
-            Id: 1,
-            Name: "Trailhead",
-            src: trailhead,
-            url: "https://trailblazer.me/id/sdesmarteau",
-        },
-        {
-            Id: 2,
-            Name: "LinkedIn",
-            src: linkedin,
-            url: "https://www.linkedin.com/in/seandesmarteau",
-        },
-        {
-            Id: 3,
-            Name: "Github",
-            src: github,
-            url: "https://github.com/DeMart2416",
-        },
-        {
-            Id: 4,
-            Name: "Twitter",
-            src: twitter,
-            url: "https://twitter.com/DeMart2416",
-        },
-        {
-            Id: 5,
-            Name: "Instagram",
-            src: instagram,
-            url: "https://www.instagram.com/demart2416",
-        },
-    ];
-
     return (
         <section className="hero-section">
             <div className="hero-content">

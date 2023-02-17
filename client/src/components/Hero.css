@@ -32,6 +32,7 @@
 
 .hero-content__summary {
     font-family: "Source Sans Pro";
+    font-weight: 600;
     font-size: 2.2rem;
     line-height: 1.6;
     text-align: center;
