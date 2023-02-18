@@ -89,7 +89,7 @@
 }
 
 .ham-menu {
-    position: absolute;
+    position: fixed;
     top: -36rem;
     width: 100%;
     margin: 0;
