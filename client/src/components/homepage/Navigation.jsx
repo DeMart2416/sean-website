@@ -42,35 +42,37 @@ function Navigation() {
     }
 
     return (
-        <header className="header">
-            <div className="header-content">
-                <div className="header-logo">
-                    <img
-                        src={seanProfile}
-                        alt="Sean DesMarteau Logo"
-                        className="header-logo__img"
-                    />
-                    <h4 className="header-logo__name">Sean DesMarteau</h4>
+        <>
+            <header className="header">
+                <div className="header-content">
+                    <div className="header-logo">
+                        <img
+                            src={seanProfile}
+                            alt="Sean DesMarteau Logo"
+                            className="header-logo__img"
+                        />
+                        <h4 className="header-logo__name">Sean DesMarteau</h4>
+                    </div>
+                    <div className="header-links">
+                        {sections.map((section) => {
+                            return (
+                                <a
+                                    key={section.Id}
+                                    href={"#" + section.Name}
+                                    className="header-link"
+                                >
+                                    {section.Name}
+                                </a>
+                            );
+                        })}
+                    </div>
+                    <div className="menu-icon" onClick={menuClicked}>
+                        <div className={style.line1}></div>
+                        <div className={style.line2}></div>
+                        <div className={style.line3}></div>
+                    </div>
                 </div>
-                <div className="header-links">
-                    {sections.map((section) => {
-                        return (
-                            <a
-                                key={section.Id}
-                                href={"#" + section.Name}
-                                className="header-link"
-                            >
-                                {section.Name}
-                            </a>
-                        );
-                    })}
-                </div>
-                <div className="menu-icon" onClick={menuClicked}>
-                    <div className={style.line1}></div>
-                    <div className={style.line2}></div>
-                    <div className={style.line3}></div>
-                </div>
-            </div>
+            </header>
             <div className={style.hamMenu}>
                 <ul className="ham-menu-nav-list">
                     {sections.map((section) => {
@@ -88,7 +90,7 @@ function Navigation() {
                     })}
                 </ul>
             </div>
-        </header>
+        </>
     );
 }
 
