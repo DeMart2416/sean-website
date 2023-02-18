@@ -77,6 +77,7 @@ function Navigation() {
                         return (
                             <li key={section.Id}>
                                 <a
+                                    onClick={menuClicked}
                                     href={"#" + section.Name}
                                     className="ham-menu-nav-item"
                                 >
