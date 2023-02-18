@@ -71,7 +71,7 @@
 }
 
 .line1Transition {
-    transform: rotate(-405deg) translate(-5px, 6px);
+    transform: rotate(-405deg) translate(-.5rem, .6rem);
     width: 2.5rem;
 }
 
@@ -80,7 +80,7 @@
 }
 
 .line3Transition {
-    transform: rotate(405deg) translate(-5px, -6px);
+    transform: rotate(405deg) translate(-.5rem, -.6rem);
     width: 2.5rem;
 }
 
