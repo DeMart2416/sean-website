@@ -93,10 +93,12 @@
     margin: 0;
     background: #eee;
     transition: all .5s;
+    display: none;
     opacity: 0;
 }
 
 .ham-menu-open {
+    display: block;
     opacity: 1;
 }
 
