@@ -52,3 +52,98 @@
 .header-link:hover {
     color: #0062b9;
 }
+
+.line {
+    height: .2rem;
+    width: 2.5rem;
+    background-color: #222;
+    margin-bottom: .6rem;
+}
+
+.line-1,
+.line-3 {
+    width: 1.8rem;
+    transition: all .4s;
+}
+
+.menu-icon:hover .line {
+    width: 2.5rem;
+}
+
+.line1Transition {
+    transform: rotate(-405deg) translate(-5px, 6px);
+    width: 2.5rem;
+}
+
+.line2Transition {
+    opacity: 0;
+}
+
+.line3Transition {
+    transform: rotate(405deg) translate(-5px, -6px);
+    width: 2.5rem;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.ham-menu {
+    width: 100%;
+    margin: 0;
+    background: #eee;
+    transition: all .5s;
+    opacity: 0;
+}
+
+.ham-menu-open {
+    opacity: 1;
+}
+
+.ham-menu-nav-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.ham-menu-nav-item {
+    text-align: right;
+    font: bold 1.6rem 'Source Sans Pro', sans-serif;
+    display: block;
+    box-sizing: border-box;
+    text-decoration: 0;
+    text-transform: uppercase;
+    color: #333;
+    padding: 2.5rem 3rem;
+    border-bottom: 1px solid white;
+    letter-spacing: 2px;
+    transition: color .3s;
+}
+
+.ham-menu-nav-item:hover {
+    color: #0062b9;
+}
+
+.ham-menu-nav-item:first-child {
+    border-top: 1px solid white;
+}
+
+.ham-menu-nav-item:last-child {
+    border-bottom: 0;
+}
+
+@media (max-width: 1100px) {
+    .header-content {
+        padding: 1rem 2rem;
+    }
+
+    .header-links {
+        display: none;
+    }
+
+    .menu-icon {
+        display: block;
+    }
+}

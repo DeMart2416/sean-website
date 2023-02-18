@@ -1,7 +1,16 @@
+import { useState } from "react";
 import "./Navigation.css";
 import seanProfile from "../../assets/images/sean-profile-pic.jpeg";
 
 function Navigation() {
+    const [style, setStyle] = useState({
+        clicked: false,
+        line1: "line line-1",
+        line2: "line line-2",
+        line3: "line line-3",
+        hamMenu: "ham-menu",
+    });
+
     const sections = [
         { Id: 1, Name: "home" },
         { Id: 2, Name: "about" },
@@ -9,6 +18,28 @@ function Navigation() {
         { Id: 4, Name: "education" },
         { Id: 5, Name: "contact" },
     ];
+
+    function menuClicked() {
+        setStyle((prevValue) => {
+            if (prevValue.clicked === false) {
+                return {
+                    clicked: true,
+                    line1: prevValue.line1 + " line1Transition",
+                    line2: prevValue.line2 + " line2Transition",
+                    line3: prevValue.line3 + " line3Transition",
+                    hamMenu: prevValue.hamMenu + " ham-menu-open",
+                };
+            } else {
+                return {
+                    clicked: false,
+                    line1: "line line-1",
+                    line2: "line line-2",
+                    line3: "line line-3",
+                    hamMenu: "ham-menu",
+                };
+            }
+        });
+    }
 
     return (
         <header className="header">
@@ -34,6 +65,27 @@ function Navigation() {
                         );
                     })}
                 </div>
+                <div className="menu-icon" onClick={menuClicked}>
+                    <div className={style.line1}></div>
+                    <div className={style.line2}></div>
+                    <div className={style.line3}></div>
+                </div>
+            </div>
+            <div className={style.hamMenu}>
+                <ul className="ham-menu-nav-list">
+                    {sections.map((section) => {
+                        return (
+                            <li key={section.Id}>
+                                <a
+                                    href={"#" + section.Name}
+                                    className="ham-menu-nav-item"
+                                >
+                                    {section.Name}
+                                </a>
+                            </li>
+                        );
+                    })}
+                </ul>
             </div>
         </header>
     );

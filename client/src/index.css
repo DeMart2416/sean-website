@@ -1,6 +1,24 @@
 html {
   font-size: 62.5%;
-  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+@media only screen and (max-width: 1200px) {
+  html {
+    font-size: 59%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  html {
+    font-size: 56%;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  html {
+    font-size: 65%;
+  }
 }
 
 body {
