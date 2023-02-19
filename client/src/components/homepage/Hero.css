@@ -28,6 +28,7 @@
     font-weight: bold;
     font-size: 6rem;
     letter-spacing: 3px;
+    text-align: center;
 }
 
 .hero-content__summary {
@@ -129,5 +130,27 @@
     to {
         top: 33px;
         opacity: 0;
+    }
+}
+
+@media (max-width: 900px) {
+    .social-links {
+        display: none;
+    }
+}
+
+@media (max-width: 600px) {
+    .social-links {
+        display: none;
+    }
+
+    .home-hero__mouse-scroll-cont {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .social-links {
+        display: none;
     }
 }

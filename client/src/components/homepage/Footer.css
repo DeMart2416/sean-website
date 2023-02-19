@@ -33,6 +33,7 @@
 .footer-upper-info__detail {
     font: 600 1.5rem/1.7 'Source Sans Pro', sans-serif;
     margin-top: 2rem;
+    margin-bottom: 0;
 }
 
 .footer-upper-social-links {
@@ -65,4 +66,23 @@
     text-align: center;
     margin: 0;
     padding: 4rem;
+}
+
+@media (max-width: 600px) {
+    .footer-upper {
+        padding: 6rem 0;
+        flex-direction: column;
+
+    }
+
+    .footer-upper-socials {
+        order: 0;
+    }
+
+    .footer-upper-info {
+        max-width: 100%;
+        text-align: justify;
+        margin-top: 4rem;
+        order: 2;
+    }
 }
