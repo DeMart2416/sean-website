@@ -58,7 +58,6 @@
     transition: transform .3s;
     border: none;
     animation: anim 1s 1s backwards;
-
 }
 
 .hero-content__btn:hover {
@@ -157,6 +156,34 @@
 @media (max-width: 500px) {
     .social-links {
         display: none;
+    }
+
+    .hero-content__heading {
+        font-size: 4.5rem;
+    }
+
+    .hero-content__summary {
+        font-size: 1.65rem;
+    }
+
+    .hero-content__btn {
+        font-size: 1.5rem;
+        padding: 1.125rem 6rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .hero-content__heading {
+        font-size: 3.5rem;
+    }
+
+    .hero-content__summary {
+        font-size: 1.45rem;
+    }
+
+    .hero-content__btn {
+        font-size: 1.5rem;
+        padding: 1rem 5rem;
     }
 }
 
