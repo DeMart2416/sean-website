@@ -16,7 +16,7 @@
     width: 92%;
     display: flex;
     justify-content: space-between;
-    padding: 8rem 0;
+    padding: 6rem 0;
 }
 
 .footer-upper-info {
@@ -61,18 +61,17 @@
 }
 
 .footer-lower p {
-    font: normal 1.4rem 'Source Sans Pro', sans-serif;
+    font: normal 1.2rem 'Source Sans Pro', sans-serif;
     color: #eee;
     text-align: center;
     margin: 0;
-    padding: 4rem;
+    padding: 2rem;
 }
 
 @media (max-width: 600px) {
     .footer-upper {
-        padding: 6rem 0;
+        padding: 4rem 0;
         flex-direction: column;
-
     }
 
     .footer-upper-socials {
