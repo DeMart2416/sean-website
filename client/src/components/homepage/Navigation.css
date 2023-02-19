@@ -35,6 +35,11 @@
     letter-spacing: 1px;
     font-family: "Source Sans Pro";
     font-weight: bold;
+    transition: color .5s;
+}
+
+.header-logo__name:hover {
+    color: #0062b9;
 }
 
 .header-link {

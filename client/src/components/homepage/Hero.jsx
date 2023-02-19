@@ -3,7 +3,7 @@ import socials from "../../assets/data/socials";
 
 function Hero() {
     return (
-        <section className="hero-section">
+        <section id="home" className="hero-section">
             <div className="hero-content">
                 <h1 className="hero-content__heading">Hey, My name is Sean</h1>
                 <p className="hero-content__summary">

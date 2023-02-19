@@ -51,7 +51,9 @@ function Navigation() {
                             alt="Sean DesMarteau Logo"
                             className="header-logo__img"
                         />
-                        <h4 className="header-logo__name">Sean DesMarteau</h4>
+                        <a href="#home" className="header-logo__name">
+                            Sean DesMarteau
+                        </a>
                     </div>
                     <div className="header-links">
                         {sections.map((section) => {
