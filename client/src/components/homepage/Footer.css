@@ -85,4 +85,8 @@
         margin-top: 4rem;
         order: 2;
     }
+
+    .footer-upper-social-link_link {
+        width: 3rem;
+    }
 }
