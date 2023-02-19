@@ -11,7 +11,7 @@ function Hero() {
                     Salesforce experience and a passion for helping businesses
                     maximize their value with the Salesforce Platform.
                 </p>
-                <button className="hero-content__btn">Projects</button>
+                <button className="hero-content__btn">Resume</button>
             </div>
             <div className="social-links">
                 {socials.map((social) => {

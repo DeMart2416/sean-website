@@ -1,0 +1,32 @@
+.section-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+    max-width: 80rem;
+    margin: auto;
+}
+
+.section-header-heading {
+    font: bold 4rem 'Source Sans Pro', sans-serif;
+    letter-spacing: 3px;
+    margin: 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.section-header-line-break {
+    width: 30px;
+    height: 6px;
+    background: #0062b9;
+    border-radius: 10rem;
+    margin: 1.75rem 0;
+}
+
+.section-header-info {
+    font: normal 2rem 'Source Sans Pro', sans-serif;
+    margin: 0;
+    text-align: center;
+    line-height: 1.6;
+}
