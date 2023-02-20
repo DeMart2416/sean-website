@@ -4,6 +4,7 @@
     background-color: #eee;
     height: 9rem;
     z-index: 20;
+    box-shadow: 0 10px 100px rgba(0, 0, 0, 0.1);
 }
 
 .header-content {
