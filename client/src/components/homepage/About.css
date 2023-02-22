@@ -11,7 +11,7 @@
 .about-container {
     max-width: 120rem;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: auto;
     margin-top: 9rem;
 }
@@ -73,4 +73,24 @@ span {
     margin-right: 1.5rem;
     margin-bottom: 1.5rem;
     font: 600 1.6rem 'Source Sans Pro', sans-serif;
+}
+
+@media (max-width: 900px) {
+    .about-container {
+        flex-direction: column;
+    }
+
+    .about-info {
+        margin: auto;
+        width: 92%;
+    }
+
+    .about-skills {
+        width: 92%;
+        margin: auto;
+    }
+
+    .about-info-btn {
+        margin-bottom: 5rem;
+    }
 }
