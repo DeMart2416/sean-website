@@ -28,6 +28,8 @@ function Footer() {
                                     >
                                         <a
                                             href={social.url}
+                                            target="_blank"
+                                            rel="noreferrer noopener"
                                             className="footer-upper-social-link_link"
                                         >
                                             <img

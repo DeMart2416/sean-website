@@ -17,7 +17,12 @@ function Hero() {
                 {socials.map((social) => {
                     return (
                         <div key={social.Id} className="social-link">
-                            <a href={social.url} className="social-link_link">
+                            <a
+                                href={social.url}
+                                target="_blank"
+                                rel="noreferrer noopener"
+                                className="social-link_link"
+                            >
                                 <img
                                     className="social-link__img"
                                     src={social.src}

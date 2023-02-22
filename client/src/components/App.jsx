@@ -1,7 +1,7 @@
 import React from "react";
 import About from "./homepage/About";
 import Contact from "./homepage/Contact";
-import Education from "./homepage/Education";
+// import Education from "./homepage/Education";
 import Experience from "./homepage/Experience";
 import Footer from "./homepage/Footer";
 // import "./App.css";
@@ -15,7 +15,7 @@ function App() {
             <Hero />
             <About />
             <Experience />
-            <Education />
+            {/* <Education /> */}
             <Contact />
             <Footer />
         </>

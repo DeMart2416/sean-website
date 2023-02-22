@@ -1,4 +1,76 @@
 .about-section {
-    background: #eee;
-    scroll-margin-top: 4rem;
+    padding: 12rem 0;
+}
+
+.gusto-link {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+.about-container {
+    max-width: 120rem;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 9rem;
+}
+
+.about-info {
+    width: 45%;
+}
+
+.about-heading {
+    font: bold 2.8rem 'Source Sans Pro', sans-serif;
+}
+
+.about-info-description {
+    font: normal 1.8rem 'Source Sans Pro', sans-serif;
+    line-height: 1.7;
+    margin-bottom: 5rem;
+}
+
+span {
+    font-weight: bold;
+}
+
+.about-info-btn {
+    background: #0062b9;
+    color: #fff;
+    font-size: 2rem;
+    padding: 1.5rem 6rem;
+    border-radius: 5px;
+    font-family: "Source Sans Pro";
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+    outline: none;
+    box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+    transition: transform .3s;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.about-info-btn:hover {
+    transform: translateY(-3px);
+}
+
+.about-skills {
+    width: 45%;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills-skill {
+    padding: 1rem 2rem;
+    background: rgba(153, 153, 153, 0.2);
+    color: #777;
+    border-radius: 5px;
+    margin-right: 1.5rem;
+    margin-bottom: 1.5rem;
+    font: 600 1.6rem 'Source Sans Pro', sans-serif;
 }

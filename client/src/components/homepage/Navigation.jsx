@@ -15,7 +15,7 @@ function Navigation() {
         { Id: 1, Name: "home" },
         { Id: 2, Name: "about" },
         { Id: 3, Name: "experience" },
-        { Id: 4, Name: "education" },
+        // { Id: 4, Name: "blog" },
         { Id: 5, Name: "contact" },
     ];
 
