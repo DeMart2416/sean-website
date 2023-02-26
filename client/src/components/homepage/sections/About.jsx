@@ -1,4 +1,5 @@
-import SectionHeader from "../reusable/SectionHeader";
+import Section from "../../ui/general/Section";
+import SectionHeader from "../../reusable/SectionHeader";
 
 import "./About.css";
 
@@ -27,7 +28,7 @@ function About() {
     ];
 
     return (
-        <section id="about" className="about-section">
+        <Section id="about">
             <SectionHeader
                 name="About Me"
                 description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis tempora explicabo quae quod deserunt eius sapiente"
@@ -72,7 +73,7 @@ function About() {
                     </div>
                 </div>
             </div>
-        </section>
+        </Section>
     );
 }
 

@@ -1,5 +1,6 @@
 import { useState } from "react";
-import SectionHeader from "../reusable/SectionHeader";
+import Section from "../../ui/general/Section";
+import SectionHeader from "../../reusable/SectionHeader";
 
 import "./Contact.css";
 
@@ -34,7 +35,7 @@ function Contact() {
 
     return (
         <>
-            <section id="contact" className="contact-section">
+            <Section id="contact" className="contact-section">
                 <SectionHeader
                     name="Contact"
                     description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis tempora explicabo quae quod deserunt eius sapiente"
@@ -98,7 +99,7 @@ function Contact() {
                         </button>
                     </form>
                 </div>
-            </section>
+            </Section>
         </>
     );
 }
