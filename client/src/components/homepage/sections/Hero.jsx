@@ -1,5 +1,6 @@
 import "./Hero.css";
 import socials from "../../../assets/data/socials";
+import Resume from "../../../assets/files/Sean DesMarteau - Resume.pdf";
 
 function Hero() {
     return (
@@ -11,7 +12,14 @@ function Hero() {
                     Salesforce experience and a passion for helping businesses
                     maximize their value with the Salesforce Platform.
                 </p>
-                <button className="hero-content__btn">Resume</button>
+                <a
+                    href={Resume}
+                    download="SeanResume"
+                    target="_blank"
+                    rel="noreferrer"
+                >
+                    <button className="hero-content__btn">Resume</button>
+                </a>
             </div>
             <div className="social-links">
                 {socials.map((social) => {
