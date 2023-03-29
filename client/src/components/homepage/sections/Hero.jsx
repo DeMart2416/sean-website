@@ -14,7 +14,7 @@ function Hero() {
                 </p>
                 <a
                     href={Resume}
-                    download="SeanResume"
+                    download="Resume - Sean DesMarteau"
                     target="_blank"
                     rel="noreferrer"
                 >
