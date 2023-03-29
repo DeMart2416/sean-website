@@ -8,7 +8,7 @@ function Hero() {
             <div className="hero-content">
                 <h1 className="hero-content__heading">Hey, My name is Sean</h1>
                 <p className="hero-content__summary">
-                    3x Salesforce Certified Developer with 5+ years of
+                    3x Salesforce Certified Developer with 7+ years of
                     Salesforce experience and a passion for helping businesses
                     maximize their value with the Salesforce Platform.
                 </p>
