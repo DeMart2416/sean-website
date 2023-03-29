@@ -11,7 +11,7 @@ function Footer() {
                     <div className="footer-upper-info">
                         <h2 className="footer-heading">Sean DesMarteau</h2>
                         <p className="footer-upper-info__detail">
-                            3x Salesforce Certified Developer with 5+ years of
+                            3x Salesforce Certified Developer with 7+ years of
                             Salesforce experience and a passion for helping
                             businesses maximize their value with the Salesforce
                             Platform.
