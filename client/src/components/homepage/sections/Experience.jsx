@@ -123,7 +123,7 @@ function Experience() {
                 <div className="experience-item">
                     <div className="experience-dates experience-date-outer">
                         <div className="from-date">
-                            <p className="experience-date">January 2019</p>
+                            <p className="experience-date">Jan 2019</p>
                         </div>
                         <div className="date-separator">
                             <p className="experience-date">-</p>
@@ -141,7 +141,7 @@ function Experience() {
                     <div>
                         <div className="experience-dates experience-date-inner">
                             <div className="from-date">
-                                <p className="experience-date">January 2019</p>
+                                <p className="experience-date">Jan 2019</p>
                             </div>
                             <div className="date-separator">
                                 <p className="experience-date">-</p>
