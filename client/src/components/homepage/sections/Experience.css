@@ -16,6 +16,7 @@
 }
 
 .experience-dates {
+    width: 175px;
     font-size: 1.8rem;
     display: flex;
     justify-content: flex-end;

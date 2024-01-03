@@ -44,7 +44,7 @@ function About() {
                         <br /> <br /> Currently I am the Development Lead at{' '}
                         <a
                             className="gusto-link"
-                            href="https://lumary.com/us/"
+                            href=" https://lumary.com/us/aba-software/"
                             target="_blank"
                             rel="noreferrer noopener"
                         >
@@ -55,7 +55,16 @@ function About() {
                         for autism therapy providers in the US. Lumary
                         integrates with specialist applications to create one
                         digital solution that enables ABA providers to manage
-                        their entire therapy practice.
+                        their entire therapy practice with a complete end-to-end
+                        <a
+                            className="gusto-link"
+                            href=" https://lumary.com/us/aba-software/"
+                            target="_blank"
+                            rel="noreferrer noopener"
+                        >
+                            ABA Practice Management Software
+                        </a>
+                        .
                         <br /> <br />
                         Combined with my formal education, and personal
                         attributes, I have the leadership experience, knowledge,
