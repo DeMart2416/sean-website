@@ -55,7 +55,7 @@ function About() {
                         for autism therapy providers in the US. Lumary
                         integrates with specialist applications to create one
                         digital solution that enables ABA providers to manage
-                        their entire therapy practice with a complete end-to-end
+                        their entire therapy practice with a complete end-to-end{' '}
                         <a
                             className="gusto-link"
                             href=" https://lumary.com/us/aba-software/"
